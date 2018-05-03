@@ -4,16 +4,49 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
 
 /* Reglas principales */
+.btn-azul {
+  background-color: rgb(34,121,180);
+}
+
+.btn-azul:hover {
+  background-color: rgb(34,121,180);
+}
+
+.bc-white {
+  border-color: white;
+}
 
 /* Diseño */
 body {
   font-family: 'PT Sans', sans-serif;
 }
 
+.navBar {
+  /* background-color: yellow; */
+}
+
+.slider {
+  margin-top: 60px;
+  background-color: rgb(34,121,180);
+}
+
 /* xs */
 @media (max-width: 575.98px) {
   body {
 
+  }
+
+  .slider {
+    padding: 54.188px 0;
+  }
+
+  .titleSlider {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .btn-web {
+    border-radius: 15px;
   }
 }
 
@@ -27,7 +60,7 @@ body {
 /* md */
 @media (min-width: 768px) and (max-width: 991.98px){
   body {
-    background-color: yellow;
+    /* background-color: yellow; */
   }
 }
 
@@ -44,7 +77,29 @@ body {
 
   }
 
-  .navBar {
-    padding: 8px 88px;
+  .imageSlider {
+    max-width: 100%;
+    height: 500px;
   }
+
+  .slider {
+    padding: 131.594px 0px;
+  }
+
+  .titleSlider {
+    /*text-align: center !important;*/
+    text-align: left !important;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 90px;
+  }
+
+  .btn-web {
+    padding: 12px;
+    border-radius: 20px;
+  }
+
+  /*.navBar {
+    padding: 8px 88px;
+  }*/
 }
