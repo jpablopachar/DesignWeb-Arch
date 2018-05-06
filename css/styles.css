@@ -121,6 +121,11 @@ body {
   .sectionDemos {
     margin-bottom: 30px;
   }
+
+  .otherDemos {
+    padding: 50px 0 30px 0;
+    background-color: rgb(245, 246, 246);
+  }
 }
 
 /* sm */
@@ -159,6 +164,11 @@ body {
 
   .sectionDemos {
     margin-bottom: 30px;
+  }
+
+  .otherDemos {
+    padding: 50px 0 30px 0;
+    background-color: rgb(245, 246, 246);
   }
 }
 
@@ -203,6 +213,11 @@ body {
   .sectionDemos {
     margin-bottom: 30px;
   }
+
+  .otherDemos {
+    padding: 70px 0 30px 0;
+    background-color: rgb(245, 246, 246);
+  }
 }
 
 /* lg */
@@ -225,6 +240,32 @@ body {
   .btn-web {
     padding: 10px;
     border-radius: 20px;
+  }
+
+  .home-demos {
+    padding: 70px 0px;
+  }
+
+  .titleDemos {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 33px;
+    margin-bottom: 20px;
+  }
+
+  .descDemos {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+  }
+
+  .sectionDemos {
+    margin-bottom: 30px;
+  }
+
+  .otherDemos {
+    padding: 70px 0 30px 0;
+    background-color: rgb(245, 246, 246);
   }
 }
 
@@ -275,5 +316,10 @@ body {
 
   .sectionDemos {
     margin-bottom: 30px;
+  }
+
+  .otherDemos {
+    padding: 70px 0 30px 0;
+    background-color: rgb(245, 246, 246);
   }
 }
