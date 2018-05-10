@@ -20,6 +20,10 @@
   color: rgb(34,121,180);
 }
 
+.txt-blanco {
+  color: #fff;
+}
+
 /* Diseño */
 body {
   font-family: 'PT Sans', sans-serif;
@@ -148,6 +152,23 @@ body {
   .image-features {
     margin-bottom: 15px;
   }
+
+  .help {
+    height: 220px;
+    padding: 50px 0;
+  }
+
+  .help h3 {
+    font-size: 30px;
+  }
+
+  .helpStrong {
+    font-weight: bold;
+  }
+
+  .help a {
+    text-align: center;
+  }
 }
 
 /* sm */
@@ -205,6 +226,19 @@ body {
 
   .image-features {
     margin-bottom: 15px;
+  }
+
+  .help {
+    height: 220px;
+    padding: 50px 0;
+  }
+
+  .help h3 {
+    font-size: 30px;
+  }
+
+  .helpStrong {
+    font-weight: bold;
   }
 }
 
@@ -267,6 +301,27 @@ body {
 
   .image-features {
     margin-bottom: 15px;
+  }
+
+  .help {
+    height: 245px;
+    padding: 70px 0;
+  }
+
+  .help h3, .help p {
+    text-align: left !important;
+  }
+
+  .help h3 {
+    font-size: 50px;
+  }
+
+  .helpStrong {
+    font-weight: bold;
+  }
+
+  .help a {
+    font-size: 18px;
   }
 }
 
@@ -334,6 +389,27 @@ body {
 
   .image-features {
     margin-bottom: 15px;
+  }
+
+  .help {
+    height: 245px;
+    padding: 70px 0;
+  }
+
+  .help h3, .help p {
+    text-align: left !important;
+  }
+
+  .help h3 {
+    font-size: 50px;
+  }
+
+  .helpStrong {
+    font-weight: bold;
+  }
+
+  .help a {
+    font-size: 18px;
   }
 }
 
@@ -407,5 +483,26 @@ body {
 
   .image-features {
     margin-bottom: 15px;
+  }
+
+  .help {
+    height: 245px;
+    padding: 70px 0;
+  }
+
+  .help h3, .help p {
+    text-align: left !important;
+  }
+
+  .help h3 {
+    font-size: 50px;
+  }
+
+  .helpStrong {
+    font-weight: bold;
+  }
+
+  .help a {
+    font-size: 18px;
   }
 }
